@@ -1,12 +1,13 @@
 {
-  "name": "application-name",
+  "name": "Bandpage",
   "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node app"
-  },
+  "description": "HTML5 audio player, Node.js",
   "dependencies": {
-    "express": "3.1.0",
-    "jade": "*",
-  }
+    "express": "latest",
+    "jade": "*"
+  },
+  "engines": {
+    "node": "0.8.19",
+    "npm": "1.2.18"
+}
 }
