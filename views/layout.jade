@@ -1,0 +1,16 @@
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='/javascripts/jquery-1.8.3.js')
+    script(src='/javascripts/player.js')
+  body
+      block content
+  div(id="footerbar")
+    img(src='/images/facebook.jpg')
+    img(src='/images/twitter.jpg')
+    img(src='/images/tumblr.jpg')
+    img(src='/images/bandcamp.jpg')
+    img#songname(src='/images/songname.jpg')
+    <a class="playback" href="#"><img id="play" src="/images/play-up.jpg"></img><audio id="player"><source src='groove.mp3'><source src='groove.ogg'></audio></a>

@@ -1,0 +1,52 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+#bandname{
+	font-family: "Verdana";
+    font-size:140px;
+    color:white;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+    position:fixed;
+    right:20px;
+    top:-100px;
+}
+body{
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	margin-left: 0;
+	margin-top: 0;
+    margin-right:0;
+}
+#footerbar{
+    opacity:0.9;
+    filter:alpha(opacity=90);
+    color:white;
+    font-family:"Verdana";
+    position:fixed;
+    left:0px;
+    margin-bottom:0px;
+    vertical-align:center;
+    bottom:0px;
+    width:100%;
+    height:50px;
+    background-color:#000000;
+    overflow:hidden;
+}
+#songname{
+    position:fixed;
+    right:75px;
+    bottom:0px;
+    display:none;
+}
+#play{
+    position:fixed;
+    bottom:0px;
+    right:15px;
+}
